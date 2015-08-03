@@ -1,0 +1,30 @@
+{
+  "name": "Pager",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node page hosts"
+  },
+  "dependencies": {
+    "commander": "^2.8.1",
+    "debug": "^2.2.0",
+    "moment": "^2.10.3",
+    "ping": "^0.1.10",
+    "restler": "^3.2.2",
+    "underscore": "^1.8.3",
+    "underscore.string": "^3.1.1"
+  },
+  "description": "Pages employees when hosts go down.",
+  "main": "page.js",
+  "devDependencies": {},
+  "author": "Thomas Ibarra",
+  "license": "MIT",
+  "keywords": [
+    "ring",
+    "page",
+    "pager",
+    "ping",
+    "down",
+    "pager"
+  ]
+}
