@@ -21,7 +21,8 @@ environments['production'] = {
     cellular: {
         enabled: true,
         api: require('./apiKey'),
-        recipients: recipients
+        recipients: recipients,
+        from: 'pager@domainexample.com'
     }
 };
 environments['default'] = environments.production;
@@ -38,7 +39,8 @@ environments['development'] = {
     cellular: {
         enabled: false,
         api: require('./apiKey'),
-        recipients: recipients
+        recipients: recipients,
+        from: 'pager@domainexample.com'
     }
 };
 

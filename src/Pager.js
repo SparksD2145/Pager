@@ -164,7 +164,7 @@ Pager.prototype.notify = function(message){
                 password: configuration.api.key,
                 data: {
                     to: phone.number,
-                    from: 'notifier@tddctx.com',
+                    from: configuration.from,
                     text: message
                 }
             }).on('success', function(){
